@@ -8,7 +8,7 @@ namespace LibraryTests
     /// Para hacer pruebas con un <see cref="TemperatureReporter"/> necesitamos un objeto <see cref="IObservable"/> por
     /// eso hacemos que la propia clase de prueba implemente esa interfaz.
     /// </summary>
-    public class TemperatureReporterTests : ISubject<Temperature>
+    public class TemperatureSensorTests : ISubject<Temperature>
     {
         private TemperatureReporter reporter;
         private bool isSubscribed = false;

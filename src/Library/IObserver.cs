@@ -4,6 +4,6 @@ namespace Observer
 {
     public interface IObserver<T>
     {
-        public void Update(Temperature value);
+        public void Update(T value);
     }
 }
